@@ -31,7 +31,7 @@ def sim_distance(prefs, p1, p2):
     # add up squares of differences
     sum_of_sq = sum([pow(prefs[p1][item] - prefs[p2][item], 2) for item in si])
     return 1 / (1 + sum_of_sq)
-# end sin_distance
+# end sim_distance
 
 def sim_pearson(prefs, p1, p2):
     si = {}
